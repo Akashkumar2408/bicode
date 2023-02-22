@@ -136,13 +136,12 @@ section {
 
 .green_col {
     height: 1151px;
-    width: 600px;
+    width: 659px;
     background-color: rgba(0, 255, 242, 0.379);
     position: absolute;
     z-index: -1;
     right: 0;
     top: 900px;
-
 }
 
 .footer_size {
