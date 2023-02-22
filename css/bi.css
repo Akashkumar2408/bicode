@@ -1,0 +1,283 @@
+.flex {
+    display: flex;
+}
+
+
+
+
+
+section {
+    border-left: solid white 8px;
+    padding-inline: 30px;
+}
+
+
+.img {
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+.whiteboder {
+    margin-top: 1.8%;
+    position: absolute;
+    height: 2%;
+    width: 93%;
+    background-color: white;
+
+}
+
+.whiteboder2 {
+    margin-top: 60px;
+    position: absolute;
+    height: 2%;
+    width: 25%;
+    background-color: white;
+
+}
+
+.org {
+    height: 1300px;
+    width: 770px;
+    background-color: rgba(255, 111, 0, 0.379);
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+}
+
+
+.bisize {
+    padding-top: 1%;
+    font-size: 1400%;
+    font-weight: 700;
+}
+
+.codedsize {
+
+    padding-left: 25%;
+    margin-top: -10%;
+    font-size: 500%;
+    font-weight: 500;
+}
+
+.idsize {
+    font-size: 150%;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    line-height: 30px;
+    margin-top: 3%;
+    padding-bottom: 20%;
+
+
+}
+
+.LOGO {
+    font-size: 0%;
+    font-weight: 0%;
+
+}
+
+.busi {
+
+    font-size: 1100%;
+    font-weight: 800;
+    margin-top: -7%;
+
+}
+
+.flyer {
+    font-size: 700%;
+    letter-spacing: 6px;
+    margin-bottom: -29px;
+    margin-top: -95px;
+}
+
+.cba {
+
+    font-size: 200%;
+    letter-spacing: 2.2px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    padding-bottom: 20%;
+}
+
+.list_of_gr {
+
+    font-size: 288%;
+    font-weight: 500;
+    list-style-type: none;
+    padding-left: 0;
+    letter-spacing: 3px;
+}
+
+.lo_mr {
+    margin-bottom: 20%;
+}
+
+.vertical_text {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin: 31% 46%;
+    font-size: 332%;
+    font-weight: 500;
+    background-color: rgba(255, 111, 0, 0.379);
+}
+
+/*------------------------------------- green box ------------------------------------*/
+
+.green_col {
+    height: 1151px;
+    width: 600px;
+    background-color: rgba(0, 255, 242, 0.379);
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 900px;
+
+}
+
+.footer_size {
+
+    font-size: 117%;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+
+}
+
+.padding_add_etc {
+    margin: 15px 30px;
+
+}
+
+.padding_lo_of_add {
+    margin: 13px 0px;
+
+}
+
+.size_a {
+    font-size: 1000%;
+    font-weight: 900;
+}
+
+
+.padding_logo {
+    margin: 20px 37px;
+
+}
+
+.prosize {
+    font-size: 150%;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 580px) {
+    .busi {
+
+        font-size: 400%;
+        font-weight: 800;
+        margin-top: -7%;
+
+    }
+
+    .org {
+        height: 1300px;
+        width: 400px;
+        background-color: rgba(255, 111, 0, 0.379);
+        position: absolute;
+        z-index: -2;
+        top: 0;
+        left: 0;
+    }
+
+    .bisize {
+
+        padding-top: 9%;
+        font-size: 750%;
+        font-weight: 700;
+    }
+
+    .codedsize {
+
+        padding-left: 29%;
+        margin-top: -14%;
+        font-size: 260%;
+        font-weight: 500;
+    }
+
+    .lo_mr {
+        margin-bottom: 20%;
+    }
+
+    .logo_height {
+        height: 0%;
+        width: 0%;
+    }
+
+    .vertical_text {
+
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+        margin: 34% 18%;
+        font-size: 538%;
+        font-weight: 500;
+        background-color: rgba(255, 111, 0, 0.379);
+    }
+
+    .flyer {
+        font-size: 400%;
+        letter-spacing: 6px;
+        margin-bottom: -16px;
+        margin-top: -47px;
+    }
+
+    .cba {
+
+        font-size: 150%;
+        letter-spacing: 1.2px;
+        margin-bottom: 0px;
+        font-weight: 500;
+        padding-bottom: 20%;
+    }
+
+    .list_of_gr {
+        font-size: 230%;
+        font-weight: 500;
+        list-style-type: none;
+        padding-left: 0;
+        letter-spacing: 3px;
+    }
+
+    .size_a {
+        font-size: 773%;
+        font-weight: 900;
+    }
+
+    .padding_logo {
+        margin: 22px 14px;
+    }
+
+    .prosize {
+        font-size: 150%;
+        letter-spacing: 2px;
+        word-spacing: 6px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .size_a {
+        font-size: 773%;
+        font-weight: 900;
+        text-align: left;
+    }
+}
